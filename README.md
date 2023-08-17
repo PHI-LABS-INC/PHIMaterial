@@ -74,4 +74,4 @@ This project is licensed under MIT.
 
 ## 🎉 Acknowledgements
 
-- [Foundly template](https://github.com/PaulRBerg/foundry-template)
+- [Foundry template](https://github.com/PaulRBerg/foundry-template)
