@@ -20,8 +20,8 @@ contract Craft is BaseScript {
 
     address payable private owner;
     // Need to Update after deploy
-    address craftLogicAddress = 0x29a767519E9662f641a7B0b080f43E37aBc95557;
-    address ugcCraftLogicAddress = 0xDaB2195DdA177A01873d648d13A5EceC3Ad14D67;
+    address craftLogicAddress = 0x00b12c2bd5279341a97872428f1083856270c446;
+    address ugcCraftLogicAddress = 0x7c79490391A5c0186018C0481C3cEF67d7ea1186;
     address materialAddress = 0x27996B7f37a5455E41aE6292fd00d21df1Fb82f1;
     address craftableAddress = 0xC73ea6afE94E5E473845Db007DB11a2E8a6847e0;
     address ugcCraftableObjectFactoryAddress = 0x8D851B86cD299f9020a529A0975365eCFc1048BB;
