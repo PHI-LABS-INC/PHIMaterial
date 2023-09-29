@@ -332,7 +332,7 @@ contract CraftLogicTest is PRBTest, StdCheats, StdUtils {
         assertEq(afBalance, 1, "testAddress should have 1 token.");
     }
 
-    function testFail_craftERC721Catalyst() public {
+    function test_craftERC721Catalyst2() public {
         vm.startPrank(admin);
 
         materialObject.getObject(testAddress, 100_001, 1);

@@ -191,7 +191,7 @@ abstract contract BaseCraftLogic is ReentrancyGuard, MultiOwner, ERC2771Context 
     }
 
     function _correctERC721Owner(Catalyst memory catalyst) internal view returns (bool) {
-        return ICatalyst(catalyst.tokenAddress).ownerOf(catalyst.tokenId) == _msgSender();
+        return ICatalyst(catalyst.tokenAddress).balanceOf(_msgSender()) >= catalyst.amount;
     }
 
     function _enoughERC1155Balance(Catalyst memory catalyst) internal view returns (bool) {
