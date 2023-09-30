@@ -66,7 +66,7 @@ replace <Your Address> with your actual address.
 - CraftLogic: 0x00b12c2bd5279341a97872428f1083856270c446
 - UGCCraftLogic: 0x7c79490391a5c0186018c0481c3cef67d7ea1186
 - UGCCraftableObjectFactory: 0x8D851B86cD299f9020a529A0975365eCFc1048BB
-- UGCCraftableObject 0xc44be7Bb4753f3CDB45172f179a991F692878a56
+- UGCCraftableObject 0x7b90d9f3399091bc1f9aae0417e9ff99ab644bc6
 
 ## 🎈 License
 
