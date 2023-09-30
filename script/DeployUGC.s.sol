@@ -7,8 +7,8 @@ import { UGCCraftableObject } from "../src/object/UGCCraftableObject.sol";
 
 contract DeployUGC is BaseScript {
     address payable private owner;
-    address craftLogicAddress = 0x29a767519E9662f641a7B0b080f43E37aBc95557;
-    address ugcCraftLogicAddress = 0xDaB2195DdA177A01873d648d13A5EceC3Ad14D67;
+    address craftLogicAddress = 0x00b12c2bd5279341a97872428f1083856270c446;
+    address ugcCraftLogicAddress = 0x7c79490391A5c0186018C0481C3cEF67d7ea1186;
     // Error thrown when the deployer is not the owner.
 
     error NotOwner();
